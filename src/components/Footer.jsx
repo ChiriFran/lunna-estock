@@ -12,7 +12,7 @@ function Footer() {
             </button>
             <p>Contacto:</p>
             <p>carrrrsuarez@gmail.com</p>
-            <p>+541130504515</p>
+            <p>+541150050556</p>
             {mostrarFAQ && <FaqModal onClose={() => setMostrarFAQ(false)} />}
             <span>&copy; {new Date().getFullYear()}</span>
         </footer>
