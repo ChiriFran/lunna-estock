@@ -74,9 +74,9 @@ function App() {
         </div>
       </div>
 
-      <h1 className="tituloPrincipal">Cosas de mujeres</h1>
+      <h1 className="tituloPrincipal">Lunna Shop</h1>
 
-      <h2 className="tituloSecundario">Catalogo de productos de belleza</h2>
+      <h2 className="tituloSecundario">Productos de belleza</h2>
 
 
       <ProductList

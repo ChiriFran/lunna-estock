@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'Poppins';
-    src: url('/assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-family: 'Cinzel';
+    src: url('/assets/fonts/Cinzel-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Delicious Handrawn';
-    src: url('/assets/fonts/DeliciousHandrawn-Regular.ttf') format('truetype');
+    font-family: 'Cinzel-bold';
+    src: url('/assets/fonts/Cinzel-ExtraBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -43,7 +43,7 @@ body::after {
 .tituloPrincipal {
     display: inline-block;
     font-family: var(--title-font), sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin: 0 5%;
     margin-top: 2rem;
     padding: 0;
@@ -54,7 +54,7 @@ body::after {
 
 .tituloSecundario {
     font-family: var(--title-font), sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0 5%;
     margin-bottom: 3rem;
     padding: 0;
@@ -293,7 +293,7 @@ body::after {
 }
 
 .product-item .info .productTitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: var(--text-font), Courier, monospace;
     font-weight: 700;
     margin: 0;
@@ -343,14 +343,15 @@ body::after {
     background: none;
     border: none;
     color: var(--color-principal);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    opacity: 0.5;
     cursor: pointer;
     margin-top: 4px;
     display: block;
 }
 
 .product-item .info .price {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: var(--title-font), sans-serif;
     font-weight: 700;
     margin: 0.5rem 0 1rem;
@@ -407,7 +408,7 @@ body::after {
     font-family: var(--text-font), Courier, monospace;
     display: inline-block;
     margin: 0 3px;
-    padding: 0.2rem 0.6rem;
+    padding: 0.1rem 0.3rem;
     background: var(--color-secundario);
     color: var(--color-principal);
     border-radius: 8px;
@@ -417,6 +418,7 @@ body::after {
     box-shadow: 0 2px 8px rgba(255, 255, 255, 0.077);
     cursor: default;
     font-size: 0.6rem;
+    line-height: 2;
 }
 
 /* Botón centrado */
@@ -430,7 +432,7 @@ body::after {
     cursor: pointer;
     transition: .4s;
     font-family: var(--title-font), Courier;
-    font-size: 1.4rem;
+    font-size: 1rem;
     border-radius: 0.2rem;
 }
 
@@ -451,7 +453,7 @@ body::after {
 /* Stock abajo */
 .product-item .stock {
     font-family: var(--title-font), Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: var(--color-principal);
 }
 
@@ -740,7 +742,7 @@ body::after {
     align-items: center;
     justify-content: center;
     margin: 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--color-principal);
     font-family: var(--title-font), sans-serif;
     /* o el color de texto que estés usando */
