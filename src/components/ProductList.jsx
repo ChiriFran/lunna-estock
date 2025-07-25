@@ -88,7 +88,7 @@ const ProductList = () => {
     if (loading) {
         return (
             <div className="product-list">
-                {[1, 2, 3].map((_, i) => (
+                {[1, 2, 3, 4].map((_, i) => (
                     <ProductSkeleton key={i} />
                 ))}
             </div>
