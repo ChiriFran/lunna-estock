@@ -4,24 +4,34 @@ import "../styles/Footer.css"; // tus estilos externos
 
 const preguntas = [
     {
+        pregunta: "¿Cómo puedo comunicarme para hacer consultas?",
+        respuesta:
+            "Podés escribirnos por email a carrrrsuarez@gmail.com o enviarnos un mensaje al +54 1150050556. ¡Estamos para ayudarte!",
+    },
+    {
         pregunta: "¿Cuáles son los medios de pago?",
         respuesta:
-            "Aceptamos pagos con Mercado Pago, tarjeta de débito/crédito y transferencias bancarias.",
+            "Aceptamos pagos con Mercado Pago a traves de tarjeta de débito/crédito y transferencias bancarias.",
     },
     {
         pregunta: "¿Cómo funcionan los envíos?",
         respuesta:
-            "Realizamos envíos a todo el país por Andreani. También podés retirar por Microcentro o Chacarita.",
+            "Realizamos envíos a todo el país por Andreani. También podés retirar por Zona Norte, Buenos Aires.",
     },
     {
         pregunta: "¿Cómo puedo comprar?",
         respuesta:
-            "Agregás productos al carrito, completás tus datos y generás el pedido. Luego nos enviás el comprobante por WhatsApp.",
+            "Simple! Agregás productos al carrito, completás tus datos y generás el pedido. Luego nos enviás el comprobante por WhatsApp.",
+    },
+    {
+        pregunta: "Realicé una compra pero olvidé enviar el comprobante, ¿qué hago?",
+        respuesta:
+            "No te preocupes. Podés enviarnos el comprobante por email a carrrrsuarez@gmail.com o por WhatsApp al +54 1150050556 para poder avanzar con el pedido.",
     },
     {
         pregunta: "¿Cuánto tarda en llegar mi pedido?",
         respuesta:
-            "El envío puede demorar entre 3 a 7 días hábiles según la localidad. Te compartiremos el seguimiento.",
+            "El envío puede demorar entre 3 a 7 días hábiles según la localidad. Te mantenemos al tanto del seguimiento por mensaje directo.",
     },
 ];
 
