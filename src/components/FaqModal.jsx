@@ -26,7 +26,7 @@ const preguntas = [
     {
         pregunta: "Realicé una compra pero olvidé enviar el comprobante, ¿qué hago?",
         respuesta:
-            "No te preocupes. Podés enviarnos el comprobante por email a carrrrsuarez@gmail.com o por WhatsApp al +54 1150050556 para poder avanzar con el pedido.",
+            "No te preocupes. Podés enviarnos el comprobante por WhatsApp al +54 1150050556 para poder avanzar con el pedido.",
     },
     {
         pregunta: "¿Cuánto tarda en llegar mi pedido?",
